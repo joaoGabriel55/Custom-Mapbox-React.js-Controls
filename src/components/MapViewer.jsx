@@ -3,8 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { CustomControl } from "./CustomControl";
 import "./styles.css";
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiZ2FicmllbHF1YXJlc21hIiwiYSI6ImNrZzc0Y2V4dTAzcTIycW81dWN0OHJsZWUifQ.fCmsLWkYr44JVBar9HYLLw";
+mapboxgl.accessToken = 'YOUR_TOKEN'
 
 const MapViewer = ({ children }) => {
   const mapContainer = useRef(null);

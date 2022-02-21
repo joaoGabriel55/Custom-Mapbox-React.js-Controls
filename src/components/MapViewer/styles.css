@@ -1,0 +1,29 @@
+.map-container {
+  height: 400px;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.my-custom-control {
+  color: #f00;
+  background: #000;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.custom-map-control {
+  position: absolute;
+  left: 2.4rem;
+}

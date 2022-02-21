@@ -1,6 +1,7 @@
 import "./App.css";
 import MapViewer from "./components/MapViewer";
-import Test from "./components/MapViewer/Test";
+import Test from "./components/Test";
+
 function App() {
   return (
     <div className="App">
